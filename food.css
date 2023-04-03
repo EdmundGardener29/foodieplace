@@ -9,6 +9,9 @@ h1 {
   color: aquamarine;
   padding: 20px;
 }
+h1:hover{
+  color: antiquewhite;
+}
 nav {
   background-color: aquamarine;
   display: grid;
