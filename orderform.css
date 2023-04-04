@@ -8,6 +8,52 @@ body{
     background-size: cover;
     color: #fff;
 }
+h1 {
+  text-align: center;
+  color: antiquewhite;
+  padding: 20px;
+  cursor: pointer;
+}
+h1:hover{
+  color: antiquewhite;
+}
+nav {
+  background-color: aquamarine;
+  display: grid;
+  place-items: center;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul a {
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s ease-in;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+nav ul a:hover {
+  background-color: aquamarine;
+  color: aliceblue;
+}
+.container1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:15px;
+  min-height: 32vh;
+  height: 10rem;
+}
+ .container2{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+  min-height: 100v
+ }
 .order-form{
     position: absolute;
     top: 50%;
@@ -29,7 +75,7 @@ body{
     font-size: 16px;
     padding: 15px 10px;
     width: 200px;
-    border-radius: 5px;
+    border-radius: 9px;
     border: 0;
     outline: none;
     font-weight: bold;
@@ -42,6 +88,7 @@ body{
     width: 50%;
     border-radius: 5px;
     text-transform: uppercase;
+    align-items: center;
 }
 .order-form button:hover{
     color: aquamarine;
@@ -50,7 +97,7 @@ select{
     font-size: 18px;
     font-weight: bold;
     margin: 20px 0;
-    padding: 10px 15px;
+    padding: 10px 32px;
     width: 50%;
     border-radius: 5px;
 }
@@ -58,6 +105,6 @@ option{
     text-transform: uppercase;
 }
 label{
-    color: black;
+    color: whitesmoke;
     font-weight: bold;
 }

@@ -4,32 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="oderform.css" />
+    <link rel="stylesheet" type="text/css" href="orderform.css" />
     <title>Form</title>
 </head>
 <body>
+      <h1>Food Place.</h1>
+    <nav>
+      <ul>
+        <a href="food.html"><li>Home</li></a>
+        <a href="orderform.html"><li>Order</li></a>
+        <a href="payment.html"><li>Payment</li></a>
+        <a href="#"><li>About</li></a>
+      </ul>
+    </nav>
     <div class="order-form">
-        <h1>Order-form</h1>
+    
         <form action="#" method="post">
-            <p>Full Name:</p>
-            <input type="text" name="fullname" placeholder="Full Name">
-            <p>Email:</p>
-            <input type="text" name="email" placeholder="email">
-            <p>Location:</p>
-            <input type="text" name="Location" placeholder="Location">
-            <p>Food Coice</p>
-            <label for="Food">Choose Food</label>
-            <select name="food type" id="food">
-                <option value="Pizza">Pizza</option>
-                <option value="Veg Pizza">Veg Pizza</option>
-                <option value="Burger">Burger</option>
-                <option value="Burger Veg">Burger Veg</option>
-                <option value="Pasta">Pasta</option>
-                <option value="Italian Paster">Italian Paster</option>
-                <option value="Coffee">Coffee</option>
-                <option value="Drink">Drink</option>
-                <option value="Juice">Juice</option>
-            </select>
+            <div class="container1">
+                <p>Full Name:</p>
+                <input type="text" name="fullname" placeholder="Full Name">
+                <p>Email:</p>
+                <input type="text" name="email" placeholder="email">
+           
+            </div>
+
+            <div class="container2">
+                <p>Location:</p>
+                <input type="text" name="Location" placeholder="Location">
+                <p>Food Choice</p>
+                <!-- <label for="Food">Choose Food</label> -->
+                <select name="food type" id="food">
+                    <option value="Pizza">Pizza</option>
+                    <option value="Veg Pizza">Veg Pizza</option>
+                    <option value="Burger">Burger</option>
+                    <option value="Burger Veg">Burger Veg</option>
+                    <option value="Pasta">Pasta</option>
+                    <option value="Italian Paster">Italian Paster</option>
+                    <option value="Coffee">Coffee</option>
+                    <option value="Drink">Drink</option>
+                    <option value="Juice">Juice</option>
+                </select>
+            
             <label for="Food">Amount</label>
             <select name="food type" id="food">
                 <option value="#">$5</option>
@@ -39,6 +54,7 @@
                 <option value="#">$25</option>
                 <option value="#">$30</option>
             </select>
+            </div>
         <button type="submit">Order</button>
         </form>
 
