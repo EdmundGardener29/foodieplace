@@ -1,12 +1,14 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Alkatra";
 }
-body{
-    background: url(./image/imgaeback.jpg) no-repeat;
-    background-size: cover;
-    color: #fff;
+body {
+  background: url(./image/slideshow-9.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
 }
 h1 {
   text-align: center;
@@ -14,7 +16,7 @@ h1 {
   padding: 20px;
   cursor: pointer;
 }
-h1:hover{
+h1:hover {
   color: antiquewhite;
 }
 nav {
@@ -38,73 +40,77 @@ nav ul a {
 nav ul a:hover {
   background-color: aquamarine;
   color: aliceblue;
+  transform: scale(1.08);
+  border-radius: 15px;
 }
-.container1{
+.container1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:15px;
+  padding: 15px;
   min-height: 32vh;
   height: 10rem;
 }
- .container2{
-    display: flex;
+.container2 {
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding:10px;
-  min-height: 100v
- }
-.order-form{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
+  padding: 10px;
+  min-height: 100v;
 }
-.order-form h1{
-    font-size: 40px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 40px 0;
+.order-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
 }
-.order-form p{
-    font-size: 20px;
-    margin: 15px 0;
-
-}.order-form input{
-    font-size: 16px;
-    padding: 15px 10px;
-    width: 200px;
-    border-radius: 9px;
-    border: 0;
-    outline: none;
-    font-weight: bold;
+.order-form h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
 }
-.order-form button{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 20px 0;
-    padding: 10px 15px;
-    width: 50%;
-    border-radius: 5px;
-    text-transform: uppercase;
-    align-items: center;
+.order-form p {
+  font-size: 20px;
+  margin: 15px 0;
 }
-.order-form button:hover{
-    color: aquamarine;
+.order-form input {
+  font-size: 16px;
+  padding: 15px 10px;
+  width: 200px;
+  border-radius: 9px;
+  border: 0;
+  outline: none;
+  font-weight: bold;
 }
-select{
-    font-size: 18px;
-    font-weight: bold;
-    margin: 20px 0;
-    padding: 10px 32px;
-    width: 50%;
-    border-radius: 5px;
+.order-form button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 50%;
+  border-radius: 5px;
+  text-transform: uppercase;
+  align-items: center;
+  background: aquamarine
 }
-option{
-    text-transform: uppercase;
+.order-form button:hover {
+  color: #fff;
+  transform: scale(1.09);
 }
-label{
-    color: whitesmoke;
-    font-weight: bold;
+select {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px 0;
+  padding: 10px 110px;
+  width: 50%;
+  border-radius: 5px;
+}
+option {
+  text-transform: uppercase;
+}
+label {
+  color: whitesmoke;
+  font-weight: bold;
 }

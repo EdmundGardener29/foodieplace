@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family:'Alkatra' ;
   box-sizing: border-box;
 }
 h1 {
@@ -31,8 +34,9 @@ nav ul a {
   font-weight: 900;
 }
 nav ul a:hover {
-  background-color: aquamarine;
+  background: aquamarine;
   color: aliceblue;
+   transform: scale(1.08);
 }
 .items {
   display: grid;
@@ -56,6 +60,7 @@ nav ul a:hover {
   text-align: center;
   text-transform: uppercase;
   font-weight: 900;
+  font-family: Alkatra;
 }
 .item button {
   padding: 5px 30px;
