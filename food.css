@@ -7,13 +7,26 @@
   font-family:'Alkatra' ;
   box-sizing: border-box;
 }
-h1 {
-  text-align: center;
-  color: black;
-  padding: 20px;
-}
-h1:hover{
+
+.header:hover{
   color: antiquewhite;
+}
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 7%;
+  height: 5rem;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 2.6rem;
+  font-weight: 700;
 }
 nav {
   background-color: aquamarine;
@@ -79,6 +92,63 @@ nav ul a:hover {
 .item button:hover {
   transform: scale(1.08);
 }
+
+.footer .top {
+  background-color: antiquewhite;
+  padding: 2rem 10%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.footer .top .links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3rem;
+}
+
+.footer .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+  background-color: aquamarine;
+}
+
+.footer .top .content p {
+  color: grey;
+  margin-top: 2rem;
+  width: 90%;
+}
+
+.footer .top .link h4 {
+  font-size: 1.7rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer .top .link a {
+  display: inline-block;
+  color: grey;
+  margin-bottom: 1rem;
+}
+
+.footer .top .link span {
+  color: grey;
+}
+
+.footer .top .link a {
+  display: block;
+}
+
+.footer .top .link div {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer .top .link div img {
+  margin-right: 1rem;
+}
+
 @media screen and (max-width: 1000px) {
   .items {
     grid-template-columns: repeat(2, 1fr);

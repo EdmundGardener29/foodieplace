@@ -10,14 +10,23 @@
   text-transform: capitalize;
   transition: all 0.2s linear;
 }
-h1 {
-  text-align: center;
-  color: black;
-  padding: 20px;
+.header {
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 7%;
+  height: 5rem;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
 }
-/* h1:hover {
-  color: antiquewhite;
-} */
+
+.logo {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
 nav {
   background-color: aquamarine;
   display: grid;
